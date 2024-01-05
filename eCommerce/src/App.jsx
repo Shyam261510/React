@@ -10,6 +10,7 @@ import ProductDetail from "./Components/ProductDetail";
 import { Login } from "./Components/Login";
 function App() {
   const [products, setProduct] = useState([]);
+
   const [cartData, setCart] = useState([]);
   const [loading, setLoading] = useState(true);
   const [login, setLogin] = useState(false);

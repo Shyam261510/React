@@ -8,7 +8,6 @@ const Navbar = () => {
   const { category, setFilterData, filterData } = useStore();
   useEffect(() => console.log(filterData), [filterData]);
   const [visible, setVisisble] = useState(false);
-
   return (
     <div className="w-full h-[3.5rem] flex justify-between p-2 items-center shadow-lg shadow-gray-500/50 ">
       <div className="font-bold text-xl text-purple-600 ">

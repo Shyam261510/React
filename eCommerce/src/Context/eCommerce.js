@@ -12,8 +12,9 @@ export const storeContext = createContext({
 
   addCart: (id) => {},
   category: [],
-  filterData:'',
-  setFilterData:()=>{}
+
+  filterData: "",
+  setFilterData: () => {},
 });
 
 export function useStore() {
