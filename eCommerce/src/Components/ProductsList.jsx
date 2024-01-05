@@ -13,6 +13,7 @@ export function ProductsList({ products }) {
     currentPage * productPerPage,
     products.length
   );
+
   const indexOfFirstPage = indexOfLastProduct - productPerPage;
 
   const handlePageChange = (event, page) => {
