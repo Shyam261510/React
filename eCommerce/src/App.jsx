@@ -70,7 +70,7 @@ function App() {
         setFilterData,
       }}
     >
-      <Navbar />
+      <Navbar  />
       <Routes>
         <Route path="/" element={<Home products={products} />} />
         <Route path="/cart" element={<Cart />} />
